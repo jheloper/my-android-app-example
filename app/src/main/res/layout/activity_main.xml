@@ -16,17 +16,15 @@
         android:text="@string/hello_world"
         android:textColor="#fff000"
         android:textSize="18pt"
-        android:textStyle="italic"
-        />
+        android:textStyle="italic" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#3355bb"
         android:text="@string/welcome"
         android:textColor="#ff00ff"
-        android:background="#3355bb"
-        android:textSize="18sp"
-        />
+        android:textSize="18sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -34,7 +32,25 @@
         android:text="@string/android"
         android:textColor="#707070"
         android:textSize="3mm"
-        android:typeface="serif"
-        />
+        android:typeface="serif" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/earth" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:maxWidth="80dp"
+        android:src="@drawable/earth" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/banana"
+        android:tint="#70ff00ff" />
 
 </LinearLayout>
