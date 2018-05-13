@@ -10,6 +10,13 @@
     android:paddingTop="@dimen/fab_margin"
     tools:context="com.example.jhkim.myapplication.MainActivity">
 
+    <Button
+        android:id="@+id/SUB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="SUB" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
